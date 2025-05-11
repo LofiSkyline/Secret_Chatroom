@@ -81,3 +81,7 @@ async function decrypt(base64Ciphertext) {
 
   return new TextDecoder().decode(decrypted)
 }
+
+
+// 导出函数
+module.exports = { generateKeypair, encrypt, decrypt }
